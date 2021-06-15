@@ -1,5 +1,5 @@
 {
-  "name": "generator-function",
+  "name": "generator-iteration",
   "version": "1.0.0",
   "description": "A module to access the large array list in more efficient way",
   "main": "index.ts",
