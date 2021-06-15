@@ -8,9 +8,13 @@ A node module to process large array list into more efficient way using generato
 
 # Description
 
-For More Info:
+## Lets Use Generator Function for array Iteration for better performance
+
+
+**For More Info:**
 
 https://kush-hingol.medium.com/lets-use-the-generator-function-for-array-iteration-in-javascript-for-better-performance-1663cb0600a5
+
 
 In the real world of data processing and manipulation, we have always come across a problem where the execution time for lengthy arrays is always a challenge and it becomes more challenging when the dataset is very large.
 We always go with a typical approach i.e we make an API call to fetch the data then iterate the data for data manipulation and processing. But just consider a scenario where the dataset fetched is too large and in that case we need to consider the optimal execution time for better performance. It will be really cool if we lazily process our iterable dataset which optimizes the execution time and also gives us a better performance. We can all achieve it by introducing generator functions.
