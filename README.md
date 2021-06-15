@@ -55,7 +55,7 @@ console.log(lazilyLoadedArray); //[1,2,3,4]
 
 # License 
 
-MIT
+ISC
 
 
 
