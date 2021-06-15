@@ -1,10 +1,12 @@
 {
-  "name": "generator-iteration",
+  "name": "generator-iterator",
   "version": "1.0.1",
   "description": "A module to access the large array list in more efficient way",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "prepublish": "npm run build",
+    "build": "tsc"
   },
   "author": "Kush Hingol",
   "license": "ISC",

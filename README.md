@@ -22,6 +22,32 @@ We always go with a typical approach i.e we make an API call to fetch the data t
 
 # Usage
 
+Node.js
+```
+const {getIterableArray} = require('generator-iterator')
+
+//get the array lazily loaded
+// Array Can be Array<any>, the array list will be computed lazily
+// Can insert Large Array List
+const lazilyLoadedArray = getIterableArray([1,2,3,4])
+console.log(lazilyLoadedArray); //[1,2,3,4]
+```
+
+Using import statement
+```
+import {getIterableArray} from 'generator-iterator'
+
+//get the array lazily loaded
+// Array Can be Array<any>, the array list will be computed lazily
+// Can insert Large Array List
+const lazilyLoadedArray = getIterableArray([1,2,3,4])
+console.log(lazilyLoadedArray); //[1,2,3,4]
+```
+
+
+# License 
+
+MIT
 
 
 

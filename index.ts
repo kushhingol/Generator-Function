@@ -19,12 +19,12 @@ function* processArrayList(anyArray: Array<any>) {
  * @param anyArray : Array<any>
  * @returns Number
  */
-const getArrayLength = (anyArray: Array<any>) => {
+const getArrayLength = (anyArray: Array<any>) : Number => {
     return anyArray.length;
 }
 
 
-module.exports.getIterableArray = (anyArray: Array<any>) => {
+export const getIterableArray = (anyArray: Array<any>) : Array<any> => {
     //Calling the generator function
     const generatorIterableObject = processArrayList(anyArray);
     const newFormatedArray = []
