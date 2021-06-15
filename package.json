@@ -1,6 +1,6 @@
 {
   "name": "generator-iterator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A module to access the large array list in more efficient way",
   "main": "index.js",
   "scripts": {
