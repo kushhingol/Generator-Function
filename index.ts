@@ -4,7 +4,7 @@
  * @desc: Function is defined to yield data lazily (Generator function)
  * @param anyArray : Array<any>
  */
-function* processArrayList(anyArray) {
+function* processArrayList(anyArray: Array<any>) {
     const arrayLength = getArrayLength(anyArray);
     if(arrayLength) {
         let i =0;
@@ -19,12 +19,12 @@ function* processArrayList(anyArray) {
  * @param anyArray : Array<any>
  * @returns Number
  */
-const getArrayLength = (anyArray) => {
+const getArrayLength = (anyArray: Array<any>) => {
     return anyArray.length;
 }
 
 
-const getIterableArray = (anyArray) => {
+module.exports.getIterableArray = (anyArray: Array<any>) => {
     //Calling the generator function
     const generatorIterableObject = processArrayList(anyArray);
     const newFormatedArray = []
@@ -34,5 +34,3 @@ const getIterableArray = (anyArray) => {
     }
     return newFormatedArray;
 }
-
-module.exports = getIterableArray;
