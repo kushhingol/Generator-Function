@@ -3,7 +3,7 @@ A node module to process large array list into more efficient way using generato
 
 # Installation
 
-`npm install generator-iteration`
+`npm install generator-iterator`
 
 
 # Description
