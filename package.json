@@ -3,10 +3,20 @@
   "version": "1.0.6",
   "description": "A module to access the large array list in more efficient way",
   "main": "index.js",
-  "scripts": {
-    "test": ""
-  },
   "author": "Kush Hingol",
   "license": "ISC",
-  "dependencies": {}
+  "homepage": "https://github.com/kushhingol/Generator-Function",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kushhingol/Generator-Function"
+  },
+  "bugs": {
+    "url": "https://github.com/kushhingol/Generator-Function/issues"
+  },
+  "keywords": [
+    "generator",
+    "generator function",
+    "iterator",
+    "generator iterator"
+  ]
 }
